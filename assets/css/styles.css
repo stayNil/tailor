@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END CSS RESET */
+
+
+/* UNIVERSAL STYLES */
+
+* {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* NAVBAR */
+
+.nav-container {
+  text-align: left;
+  padding: 16px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+a:visited{
+  color:inherit;
+}
+
+.sign-in-btn {
+  float: right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.sign-in-btn:visited {
+  color: white;
+}
+
+/* JUMBOTRON */
+
+.jumbo {
+  background-image: url('../img/photo-1552217780-50487af33f54.jpg');
+  /* width: 100%; */
+  height: 300px;
+  padding: 130px 16px;
+  margin-bottom: 60px;
+}
+
+.jumbo h1 {
+  font: bold 2rem Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.3em;
+  padding-bottom: 26px;
+  /* font-family:  */
+}
+
+.form-row input {
+  display: block;
+  height: 44px;
+  width: 96%;
+  margin-bottom: 8px;
+  text-align: left;
+  padding-left: 10px;
+  font: 18px bold;
+  border-radius: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-row button {
+  display: block;
+  height: 50px;
+  width: 100%;
+  float: right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+
+/* FEATURES */
+
+.features div {
+  padding: 30px;
+}
+
+.features h3 {
+  font: bold 1.75rem Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+}
+
+.features p {
+  font: normal 1.25rem Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+.feat-three {
+  margin-bottom: 50px;
+}
+
+
+/* SHOWCASE */
+
+.showcase {
+
+}
+
+.showcase h2 {
+  font: bold 2rem Arial, Helvetica, sans-serif;
+  margin-bottom: 14px;
+}
+
+.showcase p {
+  font: normal 1.25rem Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+/* .showcase-pic-one {
+  background-image: url('/assets/img/design/pexels-photo-945688.jpeg');
+  height: 70px;
+} */
+
+.showcase-text-one {
+  padding: 40px;
+}
+
+/* .showcase-pic-two {
+  background-image: url('/assets/img/design/pexels-photo-945688.jpeg')
+} */
+
+.showcase-text-two {
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.second-sign-up {
+  background-image: url('../img/photo-1552217780-50487af33f54.jpg');
+  /* width: 100%; */
+  height: 160px;
+  padding: 130px 16px;
+  margin-bottom: 60px;
+}
+
+.second-sign-up h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-row h2 {
+  font-size: 2rem;
+  padding-bottom: 18px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  padding: 10px 10px 60px 10px;
+}
+
+.foot-nav {
+  margin-bottom: 18px;
+}
+
+.foot-nav li {
+  display: inline;
+  padding: 0 10px;
+  color:#4CAF50;
+  font: normal 1rem Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyleft {
+  color: #6c757d;
+  font: normal 0.9rem Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: -1.25px;
+}
+
+.copyleft span {
+  display:inline-block;
+  transform: rotate(180deg);
+  margin-bottom: 24px;
+}
