@@ -88,6 +88,10 @@ a:visited{
   color: white;
 }
 
+.sign-in-btn:hover {
+  background-color: #2e7531;
+}
+
 /* JUMBOTRON */
 
 .jumbo {
@@ -129,6 +133,10 @@ a:visited{
   display: inline-block;
   font-size: 18px;
   border-radius: 6px;
+}
+
+.form-row button:hover {
+  background-color: #2e7531;
 }
 
 
@@ -221,6 +229,10 @@ footer {
   padding: 0 10px;
   color:#4CAF50;
   font: normal 1rem Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot-nav li:hover {
+  color: #2e7531;
 }
 
 .copyleft {
