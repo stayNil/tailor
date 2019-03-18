@@ -92,11 +92,13 @@ a:visited{
   background-color: #2e7531;
 }
 
+
 /* JUMBOTRON */
 
 .jumbo {
   background-image: url('../img/photo-1552217780-50487af33f54.jpg');
-  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 300px;
   padding: 130px 16px;
   margin-bottom: 60px;
@@ -107,30 +109,26 @@ a:visited{
   font-size: 2rem;
   line-height: 1.3em;
   padding-bottom: 26px;
-  /* font-family:  */
 }
 
 .form-row input {
   display: block;
   height: 44px;
-  width: 96%;
+  width: 98%;
   margin-bottom: 8px;
   text-align: left;
-  padding-left: 10px;
   font: 18px bold;
   border-radius: 6px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-row button {
-  display: block;
   height: 50px;
   width: 100%;
-  float: right;
   background-color: #4CAF50;
   border: none;
   color: white;
-  display: inline-block;
+  display: block;
   font-size: 18px;
   border-radius: 6px;
 }
@@ -163,9 +161,6 @@ a:visited{
 
 /* SHOWCASE */
 
-.showcase {
-
-}
 
 .showcase h2 {
   font: bold 2rem Arial, Helvetica, sans-serif;
@@ -177,18 +172,9 @@ a:visited{
   line-height: 1.5;
 }
 
-/* .showcase-pic-one {
-  background-image: url('/assets/img/design/pexels-photo-945688.jpeg');
-  height: 70px;
-} */
-
 .showcase-text-one {
   padding: 40px;
 }
-
-/* .showcase-pic-two {
-  background-image: url('/assets/img/design/pexels-photo-945688.jpeg')
-} */
 
 .showcase-text-two {
   padding: 40px;
@@ -197,7 +183,8 @@ a:visited{
 
 .second-sign-up {
   background-image: url('../img/photo-1552217780-50487af33f54.jpg');
-  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 160px;
   padding: 130px 16px;
   margin-bottom: 60px;
@@ -211,7 +198,6 @@ a:visited{
   font-size: 2rem;
   padding-bottom: 18px;
 }
-
 
 
 /* FOOTER */
@@ -245,4 +231,72 @@ footer {
   display:inline-block;
   transform: rotate(180deg);
   margin-bottom: 24px;
+}
+
+
+/* Tablet */
+@media (min-width: 760px) and (max-width: 1024px) {
+  .jumbo h1 {
+    font-size: 3rem;
+  }
+
+  .form-row {
+    display: inline;
+  }
+
+  .form-row input {
+    float: left;
+    width: 425px;
+    margin-left: 10%;
+    margin-right: 10px;
+  }
+
+  .form-row button {
+    width: 135px;
+
+  }
+
+}
+
+
+/* External Monitor */
+@media (min-width: 1024px) {
+
+  .nav-container a {
+    margin-left: 10%;
+  }
+
+  .sign-in-btn {
+    margin-right: 10%;
+  }
+
+  .jumbo h1 {
+    font-size: 3rem;
+  }
+
+  .form-row {
+    display: inline;
+  }
+
+  .form-row input {
+    float: left;
+    width: 425px;
+    margin-left: 32%;
+    margin-right: 10px;
+  }
+
+  .form-row button {
+    width: 135px;
+
+  }
+  .features {
+    display: inline;
+  }
+
+  .features div {
+    display: inline-block;
+    width: 20%;
+  }
+
+
 }
